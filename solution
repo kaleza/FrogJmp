@@ -1,0 +1,10 @@
+def solution(X, Y, D):
+    if (X==Y):
+        jump=0;
+    else:
+        t=(Y-X)/D;
+        if (t==int(t)):
+            jump=int(t);
+        else:
+            jump=int(t)+1;
+    return (jump)
